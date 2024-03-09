@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8260C0F02B9C0DDF00EDCFE7 /* BeeKeeperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8260C0EF2B9C0DDF00EDCFE7 /* BeeKeeperApp.swift */; };
+		8260C0F22B9C0DDF00EDCFE7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8260C0F12B9C0DDF00EDCFE7 /* ContentView.swift */; };
+		8260C0F42B9C0DDF00EDCFE7 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8260C0F32B9C0DDF00EDCFE7 /* Item.swift */; };
+		8260C0F62B9C0DE200EDCFE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8260C0F52B9C0DE200EDCFE7 /* Assets.xcassets */; };
+		8260C0FA2B9C0DE200EDCFE7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8260C0F92B9C0DE200EDCFE7 /* Preview Assets.xcassets */; };
+		8260C1042B9C0DE300EDCFE7 /* BeeKeeperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8260C1032B9C0DE300EDCFE7 /* BeeKeeperTests.swift */; };
+		8260C10E2B9C0DE300EDCFE7 /* BeeKeeperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8260C10D2B9C0DE300EDCFE7 /* BeeKeeperUITests.swift */; };
+		8260C1102B9C0DE300EDCFE7 /* BeeKeeperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8260C10F2B9C0DE300EDCFE7 /* BeeKeeperUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8260C1002B9C0DE300EDCFE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8260C0E42B9C0DDE00EDCFE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8260C0EB2B9C0DDF00EDCFE7;
+			remoteInfo = BeeKeeper;
+		};
+		8260C10A2B9C0DE300EDCFE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8260C0E42B9C0DDE00EDCFE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8260C0EB2B9C0DDF00EDCFE7;
+			remoteInfo = BeeKeeper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8260C0EC2B9C0DDF00EDCFE7 /* BeeKeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeeKeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8260C0EF2B9C0DDF00EDCFE7 /* BeeKeeperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeeKeeperApp.swift; sourceTree = "<group>"; };
+		8260C0F12B9C0DDF00EDCFE7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8260C0F32B9C0DDF00EDCFE7 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		8260C0F52B9C0DE200EDCFE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8260C0F72B9C0DE200EDCFE7 /* BeeKeeper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BeeKeeper.entitlements; sourceTree = "<group>"; };
+		8260C0F92B9C0DE200EDCFE7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8260C0FF2B9C0DE300EDCFE7 /* BeeKeeperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeeKeeperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8260C1032B9C0DE300EDCFE7 /* BeeKeeperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeeKeeperTests.swift; sourceTree = "<group>"; };
+		8260C1092B9C0DE300EDCFE7 /* BeeKeeperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeeKeeperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8260C10D2B9C0DE300EDCFE7 /* BeeKeeperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeeKeeperUITests.swift; sourceTree = "<group>"; };
+		8260C10F2B9C0DE300EDCFE7 /* BeeKeeperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeeKeeperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8260C0E92B9C0DDF00EDCFE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8260C0FC2B9C0DE300EDCFE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8260C1062B9C0DE300EDCFE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8260C0E32B9C0DDE00EDCFE7 = {
+			isa = PBXGroup;
+			children = (
+				8260C0EE2B9C0DDF00EDCFE7 /* BeeKeeper */,
+				8260C1022B9C0DE300EDCFE7 /* BeeKeeperTests */,
+				8260C10C2B9C0DE300EDCFE7 /* BeeKeeperUITests */,
+				8260C0ED2B9C0DDF00EDCFE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8260C0ED2B9C0DDF00EDCFE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8260C0EC2B9C0DDF00EDCFE7 /* BeeKeeper.app */,
+				8260C0FF2B9C0DE300EDCFE7 /* BeeKeeperTests.xctest */,
+				8260C1092B9C0DE300EDCFE7 /* BeeKeeperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8260C0EE2B9C0DDF00EDCFE7 /* BeeKeeper */ = {
+			isa = PBXGroup;
+			children = (
+				8260C0EF2B9C0DDF00EDCFE7 /* BeeKeeperApp.swift */,
+				8260C0F12B9C0DDF00EDCFE7 /* ContentView.swift */,
+				8260C0F32B9C0DDF00EDCFE7 /* Item.swift */,
+				8260C0F52B9C0DE200EDCFE7 /* Assets.xcassets */,
+				8260C0F72B9C0DE200EDCFE7 /* BeeKeeper.entitlements */,
+				8260C0F82B9C0DE200EDCFE7 /* Preview Content */,
+			);
+			path = BeeKeeper;
+			sourceTree = "<group>";
+		};
+		8260C0F82B9C0DE200EDCFE7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8260C0F92B9C0DE200EDCFE7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8260C1022B9C0DE300EDCFE7 /* BeeKeeperTests */ = {
+			isa = PBXGroup;
+			children = (
+				8260C1032B9C0DE300EDCFE7 /* BeeKeeperTests.swift */,
+			);
+			path = BeeKeeperTests;
+			sourceTree = "<group>";
+		};
+		8260C10C2B9C0DE300EDCFE7 /* BeeKeeperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8260C10D2B9C0DE300EDCFE7 /* BeeKeeperUITests.swift */,
+				8260C10F2B9C0DE300EDCFE7 /* BeeKeeperUITestsLaunchTests.swift */,
+			);
+			path = BeeKeeperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8260C0EB2B9C0DDF00EDCFE7 /* BeeKeeper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8260C1132B9C0DE300EDCFE7 /* Build configuration list for PBXNativeTarget "BeeKeeper" */;
+			buildPhases = (
+				8260C0E82B9C0DDF00EDCFE7 /* Sources */,
+				8260C0E92B9C0DDF00EDCFE7 /* Frameworks */,
+				8260C0EA2B9C0DDF00EDCFE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeeKeeper;
+			productName = BeeKeeper;
+			productReference = 8260C0EC2B9C0DDF00EDCFE7 /* BeeKeeper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8260C0FE2B9C0DE300EDCFE7 /* BeeKeeperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8260C1162B9C0DE300EDCFE7 /* Build configuration list for PBXNativeTarget "BeeKeeperTests" */;
+			buildPhases = (
+				8260C0FB2B9C0DE300EDCFE7 /* Sources */,
+				8260C0FC2B9C0DE300EDCFE7 /* Frameworks */,
+				8260C0FD2B9C0DE300EDCFE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8260C1012B9C0DE300EDCFE7 /* PBXTargetDependency */,
+			);
+			name = BeeKeeperTests;
+			productName = BeeKeeperTests;
+			productReference = 8260C0FF2B9C0DE300EDCFE7 /* BeeKeeperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8260C1082B9C0DE300EDCFE7 /* BeeKeeperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8260C1192B9C0DE300EDCFE7 /* Build configuration list for PBXNativeTarget "BeeKeeperUITests" */;
+			buildPhases = (
+				8260C1052B9C0DE300EDCFE7 /* Sources */,
+				8260C1062B9C0DE300EDCFE7 /* Frameworks */,
+				8260C1072B9C0DE300EDCFE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8260C10B2B9C0DE300EDCFE7 /* PBXTargetDependency */,
+			);
+			name = BeeKeeperUITests;
+			productName = BeeKeeperUITests;
+			productReference = 8260C1092B9C0DE300EDCFE7 /* BeeKeeperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8260C0E42B9C0DDE00EDCFE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					8260C0EB2B9C0DDF00EDCFE7 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					8260C0FE2B9C0DE300EDCFE7 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 8260C0EB2B9C0DDF00EDCFE7;
+					};
+					8260C1082B9C0DE300EDCFE7 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 8260C0EB2B9C0DDF00EDCFE7;
+					};
+				};
+			};
+			buildConfigurationList = 8260C0E72B9C0DDE00EDCFE7 /* Build configuration list for PBXProject "BeeKeeper" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8260C0E32B9C0DDE00EDCFE7;
+			productRefGroup = 8260C0ED2B9C0DDF00EDCFE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8260C0EB2B9C0DDF00EDCFE7 /* BeeKeeper */,
+				8260C0FE2B9C0DE300EDCFE7 /* BeeKeeperTests */,
+				8260C1082B9C0DE300EDCFE7 /* BeeKeeperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8260C0EA2B9C0DDF00EDCFE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8260C0FA2B9C0DE200EDCFE7 /* Preview Assets.xcassets in Resources */,
+				8260C0F62B9C0DE200EDCFE7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8260C0FD2B9C0DE300EDCFE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8260C1072B9C0DE300EDCFE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8260C0E82B9C0DDF00EDCFE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8260C0F22B9C0DDF00EDCFE7 /* ContentView.swift in Sources */,
+				8260C0F42B9C0DDF00EDCFE7 /* Item.swift in Sources */,
+				8260C0F02B9C0DDF00EDCFE7 /* BeeKeeperApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8260C0FB2B9C0DE300EDCFE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8260C1042B9C0DE300EDCFE7 /* BeeKeeperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8260C1052B9C0DE300EDCFE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8260C10E2B9C0DE300EDCFE7 /* BeeKeeperUITests.swift in Sources */,
+				8260C1102B9C0DE300EDCFE7 /* BeeKeeperUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8260C1012B9C0DE300EDCFE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8260C0EB2B9C0DDF00EDCFE7 /* BeeKeeper */;
+			targetProxy = 8260C1002B9C0DE300EDCFE7 /* PBXContainerItemProxy */;
+		};
+		8260C10B2B9C0DE300EDCFE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8260C0EB2B9C0DDF00EDCFE7 /* BeeKeeper */;
+			targetProxy = 8260C10A2B9C0DE300EDCFE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8260C1112B9C0DE300EDCFE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8260C1122B9C0DE300EDCFE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		8260C1142B9C0DE300EDCFE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BeeKeeper/BeeKeeper.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BeeKeeper/Preview Content\"";
+				DEVELOPMENT_TEAM = 823GE4UB2Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sitka.BeeKeeper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8260C1152B9C0DE300EDCFE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BeeKeeper/BeeKeeper.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BeeKeeper/Preview Content\"";
+				DEVELOPMENT_TEAM = 823GE4UB2Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sitka.BeeKeeper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8260C1172B9C0DE300EDCFE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 823GE4UB2Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sitka.BeeKeeperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeeKeeper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BeeKeeper";
+			};
+			name = Debug;
+		};
+		8260C1182B9C0DE300EDCFE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 823GE4UB2Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sitka.BeeKeeperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeeKeeper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BeeKeeper";
+			};
+			name = Release;
+		};
+		8260C11A2B9C0DE300EDCFE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 823GE4UB2Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sitka.BeeKeeperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeeKeeper;
+			};
+			name = Debug;
+		};
+		8260C11B2B9C0DE300EDCFE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 823GE4UB2Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sitka.BeeKeeperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeeKeeper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8260C0E72B9C0DDE00EDCFE7 /* Build configuration list for PBXProject "BeeKeeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8260C1112B9C0DE300EDCFE7 /* Debug */,
+				8260C1122B9C0DE300EDCFE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8260C1132B9C0DE300EDCFE7 /* Build configuration list for PBXNativeTarget "BeeKeeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8260C1142B9C0DE300EDCFE7 /* Debug */,
+				8260C1152B9C0DE300EDCFE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8260C1162B9C0DE300EDCFE7 /* Build configuration list for PBXNativeTarget "BeeKeeperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8260C1172B9C0DE300EDCFE7 /* Debug */,
+				8260C1182B9C0DE300EDCFE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8260C1192B9C0DE300EDCFE7 /* Build configuration list for PBXNativeTarget "BeeKeeperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8260C11A2B9C0DE300EDCFE7 /* Debug */,
+				8260C11B2B9C0DE300EDCFE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8260C0E42B9C0DDE00EDCFE7 /* Project object */;
+}
