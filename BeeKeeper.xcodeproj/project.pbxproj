@@ -15,6 +15,11 @@
 		8260C1042B9C0DE300EDCFE7 /* BeeKeeperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8260C1032B9C0DE300EDCFE7 /* BeeKeeperTests.swift */; };
 		8260C10E2B9C0DE300EDCFE7 /* BeeKeeperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8260C10D2B9C0DE300EDCFE7 /* BeeKeeperUITests.swift */; };
 		8260C1102B9C0DE300EDCFE7 /* BeeKeeperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8260C10F2B9C0DE300EDCFE7 /* BeeKeeperUITestsLaunchTests.swift */; };
+		8260C11D2B9C0F7000EDCFE7 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8260C11C2B9C0F7000EDCFE7 /* LoginPage.swift */; };
+		8260C11F2B9C1CD500EDCFE7 /* Pin Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8260C11E2B9C1CD500EDCFE7 /* Pin Page.swift */; };
+		8260C1212B9F9A7700EDCFE7 /* EliminarBill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8260C1202B9F9A7700EDCFE7 /* EliminarBill.swift */; };
+		8260C1232B9FA90600EDCFE7 /* Eliminar Cuenta Confirmacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8260C1222B9FA90600EDCFE7 /* Eliminar Cuenta Confirmacion.swift */; };
+		8260C1252B9FADA800EDCFE7 /* EliminacionExitosa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8260C1242B9FADA700EDCFE7 /* EliminacionExitosa.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		8260C1092B9C0DE300EDCFE7 /* BeeKeeperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeeKeeperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8260C10D2B9C0DE300EDCFE7 /* BeeKeeperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeeKeeperUITests.swift; sourceTree = "<group>"; };
 		8260C10F2B9C0DE300EDCFE7 /* BeeKeeperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeeKeeperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8260C11C2B9C0F7000EDCFE7 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		8260C11E2B9C1CD500EDCFE7 /* Pin Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pin Page.swift"; sourceTree = "<group>"; };
+		8260C1202B9F9A7700EDCFE7 /* EliminarBill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EliminarBill.swift; sourceTree = "<group>"; };
+		8260C1222B9FA90600EDCFE7 /* Eliminar Cuenta Confirmacion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Eliminar Cuenta Confirmacion.swift"; sourceTree = "<group>"; };
+		8260C1242B9FADA700EDCFE7 /* EliminacionExitosa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EliminacionExitosa.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +113,11 @@
 				8260C0F52B9C0DE200EDCFE7 /* Assets.xcassets */,
 				8260C0F72B9C0DE200EDCFE7 /* BeeKeeper.entitlements */,
 				8260C0F82B9C0DE200EDCFE7 /* Preview Content */,
+				8260C11C2B9C0F7000EDCFE7 /* LoginPage.swift */,
+				8260C1242B9FADA700EDCFE7 /* EliminacionExitosa.swift */,
+				8260C1202B9F9A7700EDCFE7 /* EliminarBill.swift */,
+				8260C11E2B9C1CD500EDCFE7 /* Pin Page.swift */,
+				8260C1222B9FA90600EDCFE7 /* Eliminar Cuenta Confirmacion.swift */,
 			);
 			path = BeeKeeper;
 			sourceTree = "<group>";
@@ -262,9 +277,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8260C1252B9FADA800EDCFE7 /* EliminacionExitosa.swift in Sources */,
+				8260C11D2B9C0F7000EDCFE7 /* LoginPage.swift in Sources */,
+				8260C11F2B9C1CD500EDCFE7 /* Pin Page.swift in Sources */,
 				8260C0F22B9C0DDF00EDCFE7 /* ContentView.swift in Sources */,
+				8260C1212B9F9A7700EDCFE7 /* EliminarBill.swift in Sources */,
 				8260C0F42B9C0DDF00EDCFE7 /* Item.swift in Sources */,
 				8260C0F02B9C0DDF00EDCFE7 /* BeeKeeperApp.swift in Sources */,
+				8260C1232B9FA90600EDCFE7 /* Eliminar Cuenta Confirmacion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
